@@ -74,6 +74,7 @@ class ListNode:
 ###C++
 ```cpp
 ListNode * ReverseList(ListNode *head){
+    if (!head) return NULL; 
     ListNode *pre=NULL,*tmp;
     while(head){
         tmp=head->next;
