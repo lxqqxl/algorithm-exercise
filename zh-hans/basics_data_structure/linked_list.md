@@ -218,7 +218,8 @@ class NodeCircle:
         else:
             return False
 ```
-```c++: is a circle
+###C++
+```c++
 class List
 {
 public:
